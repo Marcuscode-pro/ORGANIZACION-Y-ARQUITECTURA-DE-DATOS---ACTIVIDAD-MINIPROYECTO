@@ -1,6 +1,4 @@
-<div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/UEES_logo.png" alt="Logo UEES" width="130">
 
 # UNIVERSIDAD DE ESPECIALIDADES ESPÍRITU SANTO
 ### FACULTAD DE INGENIERÍA
