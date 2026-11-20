@@ -23,11 +23,10 @@
 ## 📌 Datos Informativos
 
 * **Asignatura:** UCOM250 - Organización y Arquitectura de Datos
-* **Docente:** Marcos López
-* **Grupo:** Grupo 3 *(Ajustar número si aplica)*
+* **Docente:** ALLAN ROBERTO AVENDANO SUDARIO
+* **Grupo:** Grupo 3 
 * **Integrantes:**
-  * 👤 Marcos López *(Completar / corregir nombres de integrantes)*
-  * 👤 [Segundo Integrante]
+  * 👤 Marcos López *
 * **Fecha de entrega:** 19/11/2026
 * **Año académico:** 2026
 
@@ -35,19 +34,10 @@
 
 ## 📖 Descripción del Problema
 
-Una fábrica de componentes electrónicos requiere un programa que procese información de su producción diaria:
+Una fábrica de componentes electrónicos requiere un programa que procese información de su producción diaria. El sistema registra inicialmente 24 unidades fabricadas y 40 unidades correspondientes a un segundo registro de producción. A partir de estos datos, se realizan operaciones de suma y resta para obtener valores intermedios relacionados con cantidades acumuladas y diferencias de producción. Algunas instrucciones utilizan resultados generados anteriormente, mientras otras modifican registros que ya han sido consultados.
 
-1. **Datos Iniciales:**
-   * Registro inicial de **24 unidades** fabricadas.
-   * Segundo registro correspondiente a **40 unidades** de producción.
-2. **Operaciones:**
-   * Se realizan operaciones de **suma y resta** para obtener valores intermedios relacionados con cantidades acumuladas y diferencias de producción.
-   * Ciertas instrucciones utilizan resultados generados anteriormente, mientras otras modifican registros ya consultados.
-3. **Verificación y Estado:**
-   * El sistema evalúa el resultado de una suma para establecer el estado del procesamiento:
-     * Si el valor calculado es **distinto de cero**, se almacena el código **`303`** (identifica un proceso de producción registrado).
-     * Si el resultado es **cero**, se almacena **`0`**.
-   * Se utiliza una posición de memoria específica para conservar este estado y permitir su posterior consulta.
+Después de realizar las operaciones, el sistema verifica el resultado de una suma para establecer el estado del procesamiento. Si el valor calculado es distinto de cero, se almacena el código 303, que identifica un proceso de producción registrado; si el resultado es cero, se almacena cero. El programa utiliza una posición específica de memoria para conservar este estado y permitir su posterior consulta.
+
 
 ---
 
